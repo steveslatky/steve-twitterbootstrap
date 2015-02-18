@@ -1078,7 +1078,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #E6E6DC;
 }
 input,
 button,
@@ -4052,7 +4052,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 20px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  border: 5px solid transparent;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4128,7 +4128,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-static-top {
   z-index: 1000;
-  border-width: 0 0 1px;
+  border-width: 0 0 5px;
 }
 @media (min-width: 768px) {
   .navbar-static-top {
@@ -4150,7 +4150,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  border-width: 0 0 5px;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4161,6 +4161,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
+  padding-left: 30px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4333,6 +4334,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav > li > .dropdown-menu {
+  color: #FFF; 
   margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -4380,11 +4382,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #81A594;
+  border-color: #00628B;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4395,11 +4397,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #FFF;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #FFF;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4432,7 +4434,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+  background-color: #81A594;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -5326,6 +5328,8 @@ a.list-group-item-danger.active:focus {
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
+  position: static;
+  bottom: 0;
 }
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {

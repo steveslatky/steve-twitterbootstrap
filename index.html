@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,19 +27,6 @@
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
 
- <script>
-
-  $(document).ready(function() {
-
-   var docHeight = $(window).height();
-   var footerHeight = $('#footer').height();
-   var footerTop = $('#footer').position().top + footerHeight;
-
-   if (footerTop < docHeight) {
-    $('#footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
-   }
-  });
- </script>
 </head>
 
 <body>
@@ -106,11 +92,23 @@
   </div>
 
 </div> <!-- /.container --> 
-<br/> <br/> 
-<div class="footer">
-<footer class="panel-footer panel-primary navbar-fixed-bottom">
-  <div class="container">
-    <p class="text-muted">Contact</p>
+
+
+  
+
+<div class="footer-text">
+<footer class=" navbar-fixed-bottom panel-footer panel-primary">
+  <div class="container-fluid">
+    <p class="text-muted footer-text">
+      <center>
+        <ul class="footer-display">
+          <li>About</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>Site Map</li>
+        </ul>
+      </center>
+    </p>
   </div>
 </footer>
 </div>

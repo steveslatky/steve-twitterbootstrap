@@ -1,10 +1,20 @@
 /*-----------------------------------------------
+
 This is a custom stylehseet for steveslatky.com 
 @author: Stephen Slatky
 Created: 02/17/2015
 
 ------------------------------------------------*/
 
-nav-style{
-	background-color: #FFFFFF;
+div.footer-text {
+margin-left: 35px;
+font-size: 88%
+
+}
+
+ul.footer-display li {
+	vertical-align: middle;
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 25px ;
 }
